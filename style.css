@@ -14,9 +14,7 @@
 	box-sizing: border-box;	
 
 }
-body{
-	overflow: hidden;
-}
+header{background: transparent;}
 /**fuente que se aplica a varios titulos**/
 .fuentes{
 	/*font-family: 'Agraham',sans-serif;*/
