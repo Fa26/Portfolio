@@ -14,7 +14,7 @@
 	box-sizing: border-box;	
 
 }
-header{background: transparent;}
+header{background: !transparent; z-index: 99999}
 /**fuente que se aplica a varios titulos**/
 .fuentes{
 	/*font-family: 'Agraham',sans-serif;*/
@@ -55,5 +55,5 @@ a{text-decoration: none; color: yellow;}
 @media only screen and (min-width: 768px) {
 	.nombre{text-align: left; padding-left: 0.2em;}
 	#navigation{padding-left: 0.7em; padding-right: 0.7em;}
-	header{background: transparent;}
+	header{background: !transparent;}
 }
