@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+
+
+@font-face {
+    font-family: 'Agraham';
+    src: url('./font/Agraham.otf');
+}
+*{
+
+	margin:0;
+	padding:0;
+	box-sizing: border-box;	
+
+}
+body{
+	overflow: hidden;
+}
+/**fuente que se aplica a varios titulos**/
+.fuentes{
+	/*font-family: 'Agraham',sans-serif;*/
+	font-family: 'Poppins', sans-serif;
+	color:yellow;
+
+}
+.nombre{font-size:3.2rem;  font-family: 'Poppins', sans-serif; color: yellow; text-align: center;}
+.colorParrafo{color: yellow;}
+.programmer{font-size: 2.4rem;}
+.info-size{font-size: 1.2rem;}
+
+
+/**canvas display animation **/	
+canvas{
+	width:100vh;
+	height: 100vh;
+	z-index: -1000;
+	position: absolute;
+}
+
+/*bottom navigation**/
+#navigation{
+	width: 100%;
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	justify-content: space-between;
+	align-items: center;
+}
+/** media navigation bottom**/
+i{font-size: 1.5rem; }
+ul li {list-style: none;}
+.iconos li{margin-top: 1rem;}
+a{text-decoration: none; color: yellow;}
+
+/*for desktop*/
+@media only screen and (min-width: 768px) {
+	.nombre{text-align: left; padding-left: 0.2em;}
+	#navigation{padding-left: 0.7em; padding-right: 0.7em;}
+}
