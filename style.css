@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	:root{
+		--color-letters:rgb(72, 69, 69);
+		--color-fatima:#db9509;
+		--color-flower:#e87319;
+	}
+	@font-face{
+		font-family: 'Gisela';
+		src:url('./fonts/Gisela.otf');
+	}
+	
+	body{
+		background: #ffff;
+		/*font-family:futura*/
+
+	}
+	.ibm-plex-mono-thin {
+	  font-family: "IBM Plex Mono", monospace;
+	  font-weight: 500;
+	  font-style: normal;
+	}
+	header{
+		width: 100%;
+		color:white;
+		background:  transparent!;
+		z-index: 333333;
+		position: absolute;
+		top: 0;
+	}
+	.fatima{color:var(--color-fatima);}
+	.programmer{color:var(--color-letters)}
+	.nav-top{
+		display: flex;
+		align-items: center;
+		padding: 1rem;
+		flex-direction: column;
+	}
+	footer{
+		width: 100%;
+		color:white;
+		position: absolute;
+		bottom:0;
+		background: transparent!;
+	}
+	.personal{cursor: pointer; padding-top: 1vw;}
+	.social{color: var(--color-letters);}
+	.social li:first-child:hover{color:var(--color-flower);}
+	.social li:nth-child(2):hover{color:#A34700;}
+	/*colore: CC5800;*/
+	
+	ul li{
+		text-align: none;
+		list-style: none;
+		display: inline-block;
+	}
+	ul li a {color:var(--color-letters); text-decoration: none;}
+	a:hover{color:var(--color-flower) ;}
+
+	#container3D canvas {
+	  width: 100vw !important;
+	  height: 100vh !important;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  background:  #fff;
+	  z-index: -2000;
+	}
+
+	@media  (min-width: 768px){
+		.nav-top{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 3rem;
+			flex-direction: row;
+		}
+
+	}
