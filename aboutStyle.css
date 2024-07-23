@@ -15,9 +15,9 @@ html,body{
     font-family: sono;
     color: black;
     overflow: hidden;
-    background-image:url('./img/handss.gif')   ;
-    background-size: cover;
-    background-position: top;
+ 
+
+ 
     
 }
 
@@ -27,19 +27,20 @@ main{
 
     width: 100%;
     height: 100%;
+ 
 
     
 }
-.fatima{
-    height: 100%;
-    padding: 2rem;
-    text-align:inherit;
 
+.fatima{
     z-index: 99999;
+    font-size: 3.3rem;
     position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+}
+.fatima >p{
+    padding: 1rem;
+    text-align: justify;
 
 }
 span{
@@ -59,15 +60,23 @@ span{
     align-items: center;
     justify-content: space-between;
     border-top:solid black 2px ;
+    font-size: 3.5rem;
+    padding:2rem;
 
  }
- footer p{
-    font-size: 1.3em;
- }
 
- @media (600px <= width <= 1300px){
-    body{font-size: 2vw;}
 
-} 
+
+@media only screen and (min-width: 768px) {
+    .fatima {
+        font-size: 1.3rem;
+
+    }
+    footer{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+}
  
 
