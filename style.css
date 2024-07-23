@@ -39,7 +39,8 @@
 		align-items: center;
 		padding: 1rem;
 		flex-direction: column;
-		font-size: 3rem;
+		font-size:calc(1em + 1vw);
+
 	}
 	footer{
 		width: 100%;
@@ -47,7 +48,7 @@
 		position: absolute;
 		bottom:0;
 		background: transparent!;
-		font-size: 3rem;
+
 	}
 	.personal{cursor: pointer; padding-top: 1vw;}
 	.social{color: var(--color-letters);}
@@ -76,12 +77,8 @@
 	
 
 	@media only screen and (min-width: 768px) {
-		footer{
-			font-size: 2vw;
-			
-		}
+		
 		.nav-top{
-			font-size: 2vw;
 			flex-direction: row;
 			justify-content: space-between;
 		}
