@@ -36,18 +36,27 @@
 	.programmer{color:var(--color-letters)}
 	.nav-top{
 		display: flex;
-		align-items: center;
 		padding: 1rem;
 		flex-direction: column;
-		font-size:calc(1em + 1vw);
+		
 
+	}
+	#fa-programmer{
+		width: 100%;
+		text-align: center;
 	}
 	footer{
 		width: 100%;
 		position: absolute;
 		bottom:0;
-		background: transparent!;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		padding: 1rem;
 
+	}
+	footer>div{
+		text-align: center;
 	}
 	.personal{cursor: pointer; padding-top: 1vw;}
 	.social{color: var(--color-letters);}
@@ -75,10 +84,4 @@
 
 	
 
-	@media only screen and (min-width: 768px) {
-		
-		.nav-top{
-			flex-direction: row;
-			justify-content: space-between;
-		}
-	}
+	
