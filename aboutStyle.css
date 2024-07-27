@@ -52,9 +52,10 @@ footer a{
 }
 
 @media only screen and (min-width: 768px) {
-    footer{font-size: 1.2em;padding: 20px;
+  
+    footer a{font-size: 1.2em;padding: 10px;
     }
-    .fatima{font-size: 1em;}
+    .fatima>p{font-size: 1.2em; padding: 17px;}
 }
 
 
