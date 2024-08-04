@@ -36,17 +36,20 @@
 		top: 0;
 	}
 	.fatima{color:var(--color-fatima);}
-	.programmer{color:var(--color-letters)}
+	.programmer{ color:var(--color-letters) ;border:solid 2px black; padding: 2px;;}
 	.nav-top{
 		display: flex;
 		padding: 1rem;
 		flex-direction: column;
 		font-size: 2.7em;
+		
+		
 	}
 	#fa-programmer{
 		width: 100%;
 		text-align: center;
 	}
+	
 	footer{
 		width: 100%;
 		position: absolute;
@@ -65,7 +68,7 @@
 	.personal{cursor: pointer; padding-top: 1vw;}
 	.social{color: var(--color-letters);}
 	.social li:first-child:hover{color:var(--color-flower);}
-	.social li:nth-child(2):hover{color:#A34700;}
+	.social li:nth-child(2):hover{color:#f8cba8;}
 	/*colore: CC5800;*/
 	
 	ul li{
@@ -73,8 +76,12 @@
 		list-style: none;
 		display: inline-block;
 	}
+	li{
+		border: solid 2px black;
+		padding: 2px;;
+	}
 	ul li a {color:var(--color-letters); text-decoration: none;}
-	a:hover{color:var(--color-flower) ;}
+	a:hover{ background-color: #f9d7be;}
 
 	#container3D canvas {
 	  width: 100vw !important;
