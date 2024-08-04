@@ -41,7 +41,7 @@
 		display: flex;
 		padding: 1rem;
 		flex-direction: column;
-		font-size: 2.7em;
+		font-size: 3.7em;
 		
 		
 	}
@@ -58,7 +58,7 @@
 		justify-content: space-between;
 		flex-direction: column;
 		padding: 1rem;
-		font-size: 2.5em;
+		font-size: 3.5em;
 		background-color: transparent!;
 
 	}
