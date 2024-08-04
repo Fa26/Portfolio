@@ -1,6 +1,17 @@
+var today= new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+
+today = mm + '/' + dd + '/' + yyyy;
+var todayDate= document.getElementById("dateNow").innerHTML(today)
+
+
 function setup() { 
 	createCanvas(innerWidth, innerHeight);
 	strokeWeight(2);
+	
 	
 	// noStroke();
 	// fill(0, 102);//transparent

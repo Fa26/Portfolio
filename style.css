@@ -6,7 +6,7 @@
 	}
 	:root{
 		--color-letters:rgb(72, 69, 69);
-		--color-fatima:#db9509;
+		--color-fatima:#f8a603;
 		--color-flower:#e87319;
 	}
 	@font-face{
@@ -14,10 +14,14 @@
 		src:url('./fonts/Gisela.otf');
 	}
 	
-	body{
-		background: #ffff;
-		/*font-family:futura*/
+	body{background: #ffff;}
 
+
+	.raleway-robot {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
 	}
 	.ibm-plex-mono-thin {
 	  font-family: "IBM Plex Mono", monospace;
@@ -78,7 +82,7 @@
 	  position: absolute;
 	  top: 0;
 	  left: 0;
-	  background:  #f5ead3;
+	  background:  #fffefd;
 	  z-index: -2000;
 	}
 
