@@ -10,7 +10,7 @@ var todayDate= document.getElementById("dateNow").innerHTML(today)
 
 function setup() { 
 	createCanvas(innerWidth, innerHeight);
-	strokeWeight(2);
+	strokeWeight(3);
 	
 	
 	// noStroke();
