@@ -11,10 +11,12 @@ var todayDate= document.getElementById("dateNow").innerHTML(today)
 function setup() { 
 	createCanvas(innerWidth, innerHeight);
 	strokeWeight(3);
+	//stroke('coral');
+	colorMode(HSB);
 	
 	
 	// noStroke();
-	// fill(0, 102);//transparent
+	 fill(0, 102);//transparent
   
   } 
   
