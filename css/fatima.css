@@ -24,7 +24,7 @@ nav{
     align-items: center;
 }
 .nav-aboutMe>li:hover{text-decoration: underline; }
-.nav-aboutMe>li>a:hover{background: #dfed33;color: black;}
+.nav-aboutMe>li>a:hover{background: #f146f7;color: black;}
 h1{text-decoration: underline; font-size: 2rem; padding: 20px;}
 .nav-aboutMe li{
     display: inline;
@@ -62,7 +62,7 @@ canvas{
 hr.new{ border-top: 2px dotted black;}
 .projects{
     position:absolute;
-    top: 1000px;
+    top: 900px;
     width: 100%;
 
 }
