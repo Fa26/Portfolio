@@ -66,9 +66,11 @@ canvas{
     
 }
 .info-show{
-    background-image: url('/img/g.png');
     height: 50vh;
     overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
