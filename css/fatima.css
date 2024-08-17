@@ -84,7 +84,7 @@ canvas{
     
 }
 .botones-me>div{cursor: pointer; border: solid white 2px; width: 100%; text-align: center;}
-
+.botones-me>div:hover{background-color: #c5c6c8; color: rgb(16, 15, 15);border: #1c1b1b solid 2px;}
 .lista-jobs li{
     display: block;
     text-decoration: none;

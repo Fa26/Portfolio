@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: rgb(251, 244, 244);
 }
 header{
     width: 100%;
@@ -72,6 +72,15 @@ a{
     border:solid rgb(2, 2, 1) 2px;
     font-size: 5rem;
     
+
+  }
+
+  /**python**/
+  .generativePython{
+    position: absolute;
+    background-color: #ff6961;
+    top: 860px;
+    width: 100%;
 
   }
   
