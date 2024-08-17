@@ -71,7 +71,7 @@ canvas{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    font-size: 3em;
 }
 
 
@@ -83,6 +83,18 @@ canvas{
     
     
 }
+
+
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+/***** projects**/
 .botones-me>div{cursor: pointer; border: solid white 2px; width: 100%; text-align: center;}
 .botones-me>div:hover{background-color: #c5c6c8; color: rgb(16, 15, 15);border: #1c1b1b solid 2px;}
 .lista-jobs li{
