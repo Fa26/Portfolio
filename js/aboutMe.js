@@ -38,13 +38,14 @@ function setup() {
 
   function techStack(){
 	const textAbout=document.getElementById("textAbout")
-	const stack = `My favourite Stack:`
+	const stack = `Front end: html,css,js,react'\'`
+	textAbout.style.fontSize="1.7rem"
 	textAbout.textContent=stack
 
   }
 
   function moreMe(){
 	const textAbout=document.getElementById("textAbout")
-	const textMore = `Help! Im a  designer \ lover cat \ lover plant \ writter \ trapped in a programmer body`
+	const textMore = `Help! Im a  designer lover cat \ lover plant \ writter \ trapped in a programmer body`
 	textAbout.textContent= textMore
   }
