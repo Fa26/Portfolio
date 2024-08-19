@@ -177,7 +177,9 @@ a{text-decoration: none; border: solid 2px black; background-color: black; color
     justify-content: center;
 
 }
-.contactoLinks ul li{display:block; text-align: center; margin: 20px;}
+.contactoLinks ul li{display:block; text-align: center; margin: 20px; background-color: white;}
+.contactoL{background-color: #fff; border: none;}
+.contactoLinks ul li a{color:#0b0a0b; background-color: none;}
 
 /************footer************/
 footer{

@@ -38,7 +38,7 @@ function setup() {
 
   function techStack(){
 	const textAbout=document.getElementById("textAbout")
-	const stack = `Front end: html,css,js,react'\'`
+	const stack = `Html,css,js,React / Rails, Python, Java /Postgreslq /Git,Threejs`
 	textAbout.style.fontSize="1.7rem"
 	textAbout.textContent=stack
 
@@ -46,6 +46,6 @@ function setup() {
 
   function moreMe(){
 	const textAbout=document.getElementById("textAbout")
-	const textMore = `Help! Im a  designer lover cat \ lover plant \ writter \ trapped in a programmer body`
+	const textMore = `Help! Im a / designer /lover cat / lover plant / writter / scuba diving / swimming /trapped in a programmer body`
 	textAbout.textContent= textMore
   }
