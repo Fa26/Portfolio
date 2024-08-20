@@ -59,7 +59,7 @@ a{
     justify-content: center;
     align-items:flex-end;
     border:solid black 2px;
-    font-size:5rem ;
+    font-size:4rem ;
   }
   .tea{
     display: flex;
@@ -70,7 +70,7 @@ a{
     flex: 50%;
     border-radius: 90px 0 0 90px;
     border:solid rgb(2, 2, 1) 2px;
-    font-size: 5rem;
+    font-size: 4rem;
     
 
   }
@@ -79,7 +79,7 @@ a{
   .generativePython{
     position: absolute;
     background-color: #ff6961;
-    top: 860px;
+    top: 1060px;
     width: 100%;
 
   }

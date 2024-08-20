@@ -1,3 +1,4 @@
+const grid = document.querySelector(".grid")
 
 
 function setup() { 
@@ -18,7 +19,19 @@ function setup() {
 	const more = document.getElementById("more").addEventListener("click",()=>{
 		moreMe()
 	})
+
+	createBoard();
   } 
+
+
+  function createBoard(){
+	const grid = document.querySelector(".grid")
+
+	for(let i=0; i<100 ; i ++){
+		let div = document.createElement("div");
+		grid.appendChild(div)
+	}
+  }
   
   function draw() { 
 	
