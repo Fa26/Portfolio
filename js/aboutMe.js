@@ -5,7 +5,7 @@ function setup() {
 	createCanvas(innerWidth, innerHeight);
 	strokeWeight(3);
 	//stroke('coral');
-	colorMode(HSB);
+	fill('rgba(100%, 0%, 100%, 0.5)');
 	
 	
 	// noStroke();
@@ -25,19 +25,23 @@ function setup() {
 
 
   function createBoard(){
+	const colores=["green","coral","black","yellow","pink","orange"]
+	const num = Math.floor((Math.random() * (6 - 0) + 0));
 	const grid = document.querySelector(".grid")
 
 	for(let i=0; i<100 ; i ++){
+		
 		let div = document.createElement("div");
 		grid.appendChild(div)
+		div.style.backgroundColor=colores[num]
 	}
   }
   
   function draw() { 
 	
 	//get the pencil effect by using mouseX/Y and pmouseX/Y (previous) inbuilt positions connecting where the mouse current is and where it was
-	line(mouseX, mouseY, pmouseX, pmouseY);//line command takes 4 arguments starting x&y and ending x&y
-	//ellipse(mouseX, mouseY, 20, 20);
+	//line(mouseX, mouseY, pmouseX, pmouseY);//line command takes 4 arguments starting x&y and ending x&y
+	ellipse(mouseX, mouseY, 25, 25);
 	  
   }
 
@@ -52,7 +56,6 @@ function setup() {
   function techStack(){
 	const textAbout=document.getElementById("textAbout")
 	const stack = `Html,css,js,React / Rails, Python, Java /Postgreslq /Git,Threejs`
-	textAbout.style.fontSize="1.7rem"
 	textAbout.textContent=stack
 
   }

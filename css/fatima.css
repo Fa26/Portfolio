@@ -53,7 +53,7 @@ canvas{
 .info-Me{
     border: solid 2px black;
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     box-shadow: 5px 10px;
     width: 90%;
     height: 50vh;
@@ -164,7 +164,6 @@ a{text-decoration: none; border: solid 2px black; background-color: black; color
     bottom: -1270px;
     width: 100%;
     height: 50vh;
-    background-color: coral;
   
 }
 
@@ -176,17 +175,21 @@ a{text-decoration: none; border: solid 2px black; background-color: black; color
     flex-wrap: wrap;
 }
 .grid >div{
-    width: 60px;
-    height: 60px;
+    width: 35.5px;
+    height: 35.5px;
     border: solid 1px black;
 }
 .contactoLinks{
     position: absolute;
-    bottom: 40px;
+    bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
-.contactoLinks ul li{display:block; text-align: center; }
+.contactoLinks ul li{display:block; text-align: center; margin:20px; }
 .contactoL{background-color: white; border: solid 2px black;}
-.contactoL:hover{background: #ed2d4a;color: rgb(239, 237, 237); box-shadow: 5px 10px;}
+.contactoL:hover{background: #ed2d4a;color: rgb(248, 194, 194); box-shadow: 5px 10px;}
 .contactoLinks ul li a{color:black; background-color: none; font-size: 3rem;}
 
 /************footer************/
@@ -226,5 +229,13 @@ span{padding: 15px;}
 }
 .nav-aboutMe li{
     font-size: 1.5rem;
+}
+.grid >div{
+    width: 60px;
+    height: 60px;
+}
+.contactoLinks{
+    bottom: 30px;
+
 }
 }
