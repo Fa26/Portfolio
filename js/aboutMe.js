@@ -25,7 +25,7 @@ function setup() {
 
 
   function createBoard(){
-	const colores=["green","coral","black","yellow","pink","orange"]
+	const colores=["green","coral","purple","yellow","pink","orange","brown"]
 	const num = Math.floor((Math.random() * (6 - 0) + 0));
 	const grid = document.querySelector(".grid")
 
@@ -55,7 +55,7 @@ function setup() {
 
   function techStack(){
 	const textAbout=document.getElementById("textAbout")
-	const stack = `Html,css,js,React / Rails, Python, Java /Postgreslq /Git,Threejs`
+	const stack = `Html,css,js,React,Tailwindcss / Rails, Python, Java /Postgreslq,slq /Git,Threejs`
 	textAbout.textContent=stack
 
   }

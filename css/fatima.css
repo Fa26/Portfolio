@@ -54,7 +54,7 @@ canvas{
     border: solid 2px black;
     padding: 10px;
     font-size: 1rem;
-    box-shadow: 5px 10px;
+    box-shadow: 5px 10px black ;
     width: 90%;
     height: 50vh;
     display: flex;
@@ -189,7 +189,7 @@ a{text-decoration: none; border: solid 2px black; background-color: black; color
 }
 .contactoLinks ul li{display:block; text-align: center; margin:20px; }
 .contactoL{background-color: white; border: solid 2px black;}
-.contactoL:hover{background: #ed2d4a;color: rgb(248, 194, 194); box-shadow: 5px 10px;}
+.contactoL:hover{background: #dfed33;color: rgb(238, 130, 67); box-shadow: 5px 10px;}
 .contactoLinks ul li a{color:black; background-color: none; font-size: 3rem;}
 
 /************footer************/
